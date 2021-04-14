@@ -1,0 +1,40 @@
+# Site settings
+title: 孫胖日記
+description: 紀錄生活的部落格
+baseurl: ""
+url: "https://sunpun190.github.io"
+
+# User settings
+username: sunpun
+user_description: 肥宅
+user_title: Welcome
+email: sunpun190@gmail.com
+twitter_username: sunpun4
+github_username: sunpun190
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: 主頁
+    url: /
+  - title: 分類
+    url: /series
+  - title: 標籤
+    url: /tags
+  - title: 關於
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
