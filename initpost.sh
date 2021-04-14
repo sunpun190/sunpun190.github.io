@@ -114,7 +114,6 @@ Options:
   -c, --create      create post
   -d, --draft       create draft post
   -p, --publish     publish/promote a draft to a post
-
 Example:
   ./initpost.sh -c How to replace strings with sed
 Important Notes:
